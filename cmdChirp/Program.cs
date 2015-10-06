@@ -41,8 +41,14 @@ namespace cmdChirp
 
 		static void setCreds()
 		{
+			var c0001 = new string[]{
+				"vm", "Z2", "LA", "Hs", "wn", 
+				"Gn", "UC", "Ci", "dr", "LE", 
+				"ws", "oE", "sp", "j3", "RE",
+				"qe", "mv", "fc", "kK", "ft",
+				"6F", "Xr", "BT", "XG", "39"};
 			var ck = "Ci34NB9rAZ4fvT8OdDHpuqOxN";
-			var cs = "vmLAwnUCdrwsspREmvkK6FBT39XGXrftfcqej3oELECiGnHsZ2";
+			var cs = m9924(c001);
 
 			var creds = loadSavedCreds(ck, cs);
 			if (creds == null)
@@ -101,5 +107,19 @@ namespace cmdChirp
 		}
 
 		static string filePath = (string)null;
+		
+		static string m9924(string[] as0187)
+		{
+			var p045 = new StringBuilder(as0187.Length);
+			int y853 = 0;
+			int ef02 = as0187.Length -1;
+			while (i < j)
+			{
+				p045.Append(as0187[y853++])
+				p045.Append(as0187[ef02--])
+			}
+			
+			return p045.ToString();
+		}
 	}
 }

@@ -9,7 +9,7 @@ It's designed to only support one account but more can be added with a little co
 ## How to use
 
 1. Build IT - As there is currently no Installer, download and build the project.
-2. Place IT - Move the .exe from the bin folder to another folder that you would deem a bit more perminant
+2. Place IT - Move the .exe from the bin folder to another folder that you would deem a bit more permanent
 3. PATH IT - Add that folder to your PATH variable so you can call cmdChirp from any directory
 4. Run IT -  Call cmdChirp or run that .exe directly
 
